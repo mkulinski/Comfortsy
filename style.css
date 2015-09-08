@@ -21,8 +21,11 @@ body {
 	position: relative;
 	background-color: #C8C6AF;
 }
-
+header {
+	padding:20px 0 10px 0;
+}
 nav {
+	display: inline-block;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
@@ -39,24 +42,26 @@ nav ul {
 
 nav ul li {
 	display: block;
-	margin-left: 4%;
-	margin-top: 1.8%;
+	margin-left: 40px;
 	float: right;
 	font-size: .9em;
+	padding-bottom: 10px;
+	padding-top: 10px;
 	/* background-color: black; */
 }
+#CompanyLogo {
+	display: inline-block;
+	padding: 10px 0 0 40px;
+}
 
-#logoName {
-	display: block;
-	float: left;
-	margin-top: 1.2%;
+#CompanyLogo h1 {
 	font-size: 1.5em;
-	margin-left: 1%;
+	float: right;
+	padding: 24px 0 0 5px;
 	/* background-color: blue; */
 }
 
-nav ul img {
-	display: block;
+#CompanyLogo img {
 	float: left;
 	/* background-color: purple; */
 }
